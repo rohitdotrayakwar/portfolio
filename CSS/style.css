@@ -1,0 +1,185 @@
+*{margin: 0; padding: 0; 
+    font-family: 'Rubik', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to left, #fff 85%, #c3f5ff 20%);
+}
+
+.navsection{
+    width: 100%; height: 20vh ;  /*Fixar aqui o tamanho da navbar*/
+    display: flex; justify-content: space-around; align-items: center;
+    background-image: linear-gradient(to top, #fff 85%, #c3f5ff 20%);
+}
+    
+.logo{
+    width: 40%;
+    color: #fff;
+    background-image: linear-gradient(#2787e7a1 30%, #854fee 70%) ;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+.logo h1{
+    text-transform: uppercase;
+    font-size: 1.6rem ;
+    animation: angepiche  2s linear infinite;
+}
+ 
+@keyframes angepiche {
+    from{ padding-left: 10%; }
+    to{ padding-right: 10%;}    
+}
+
+nav{
+    width: 60%;
+    justify-content: space-around;
+   display: flex;
+}
+
+nav a{
+    text-decoration: none ;
+    text-transform: uppercase  ;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    position: relative;
+    display: flex;
+}
+
+nav a:first-child{
+    color: rgb(91, 91, 224);
+}
+
+
+ nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px  solid #4458dc;
+    transition: all 0.4s linear;
+ }
+
+ nav a:hover:before{
+    width: 100%;
+ }
+
+img{
+    width: 400px;
+    height:400px;
+}
+
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rightside image{
+    max-width:  300px;
+    height: auto  ;
+}
+
+.rightside{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-color: #c3f5ff; 
+}
+
+.rightside:hover {
+    border-radius: 70% 30% 30% 70% / 30% 30% 70% 70%;
+    background-color: #79dd9f;
+    transition: all 2s linear;
+}
+
+.leftside{
+    color: #000;
+    text-align: left;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.leftside h3:after{
+    content: "";
+    width: 450px;
+    height: 3px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    background-color: #000;
+}
+
+.leftside h1{
+    margin-top: 20px;
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.leftside h2{
+    margin-bottom: 35px;
+    font-weight: 500;
+    word-spacing: 4px;
+}
+
+.btn1{
+    display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #fff;
+        background-color: #4c7caf;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 1s;
+        background: #5E5DF0;
+         border-radius: 999px;
+        box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+      color: #FFFFFF;
+         cursor: pointer;
+          font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+         font-size: 16px;
+         font-weight: 700;
+         line-height: 24px;
+         opacity: 1;
+         outline: 0 solid transparent;
+         padding: 8px 18px;
+         user-select: none;
+         -webkit-user-select: none;
+          touch-action: manipulation;
+         width: fit-content;
+         word-break: break-word;
+         border: 0;
+        
+}
+.btn1:hover {
+    background-color: #0c0936;
+    transition: background-color 1s;
+}
+
+/* CSS */
+.btn2 {
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+}
+
