@@ -30,8 +30,8 @@ You can view the live demo of the portfolio website [here](https://rohitdotrayak
 
 To run this project locally, follow these steps:
 
-1. Clone this repository to your local machine using `git clone https://github.com/your_username/portfolio-website.git`
-2. Navigate to the project directory: `cd portfolio-website`
+1. Clone this repository to your local machine using `git clone https://github.com/rohitdotrayakwar/portfolio.git`
+2. Navigate to the project directory: `cd portfolio`
 
 ## Usage
 
