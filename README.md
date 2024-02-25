@@ -8,8 +8,8 @@ You can view the live demo of the portfolio website [here](https://rohitdotrayak
 
 ## Screenshots
 
-![Portfolio Website Screenshot](![image](https://github.com/rohitdotrayakwar/portfolio/assets/153349651/35bf9532-83a5-4c6a-b16b-9944dc06e052)
-)![image](https://github.com/rohitdotrayakwar/portfolio/assets/153349651/893a6b47-fbfa-4cae-a8bb-30841b7e75fe)
+![image](https://github.com/rohitdotrayakwar/portfolio/assets/153349651/35bf9532-83a5-4c6a-b16b-9944dc06e052)
+![image](https://github.com/rohitdotrayakwar/portfolio/assets/153349651/893a6b47-fbfa-4cae-a8bb-30841b7e75fe)
 
 
 ## Features
